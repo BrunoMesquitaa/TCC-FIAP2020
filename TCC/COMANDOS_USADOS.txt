@@ -1,0 +1,102 @@
+opencv_createsamples.exe -img cadeirante\cadeirante1.jpg -bg negativas\bg.txt -info positivas1\positivas1.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante2.jpg -bg negativas\bg.txt -info positivas2\positivas2.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante3.jpg -bg negativas\bg.txt -info positivas3\positivas3.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante4.jpg -bg negativas\bg.txt -info positivas4\positivas4.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante5.jpg -bg negativas\bg.txt -info positivas5\positivas5.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante6.jpg -bg negativas\bg.txt -info positivas6\positivas6.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante7.jpg -bg negativas\bg.txt -info positivas7\positivas7.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante8.jpg -bg negativas\bg.txt -info positivas8\positivas8.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante9.jpg -bg negativas\bg.txt -info positivas9\positivas9.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante10.jpg -bg negativas\bg.txt -info positivas10\positivas10.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante11.jpg -bg negativas\bg.txt -info positivas11\positivas11.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante12.jpg -bg negativas\bg.txt -info positivas12\positivas12.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante13.jpg -bg negativas\bg.txt -info positivas13\positivas13.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante14.jpg -bg negativas\bg.txt -info positivas14\positivas14.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante15.jpg -bg negativas\bg.txt -info positivas15\positivas15.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante16.jpg -bg negativas\bg.txt -info positivas16\positivas16.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante17.jpg -bg negativas\bg.txt -info positivas17\positivas17.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante18.jpg -bg negativas\bg.txt -info positivas18\positivas18.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante19.jpg -bg negativas\bg.txt -info positivas19\positivas19.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante20.jpg -bg negativas\bg.txt -info positivas20\positivas20.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante21.jpg -bg negativas\bg.txt -info positivas21\positivas21.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante22.jpg -bg negativas\bg.txt -info positivas22\positivas22.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante23.jpg -bg negativas\bg.txt -info positivas23\positivas23.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante24.jpg -bg negativas\bg.txt -info positivas24\positivas24.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante25.jpg -bg negativas\bg.txt -info positivas25\positivas25.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante26.jpg -bg negativas\bg.txt -info positivas26\positivas26.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante27.jpg -bg negativas\bg.txt -info positivas27\positivas27.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante28.jpg -bg negativas\bg.txt -info positivas28\positivas28.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+opencv_createsamples.exe -img cadeirante\cadeirante29.jpg -bg negativas\bg.txt -info positivas29\positivas29.lst -maxxangle 0.5 -mazyangle 0.5 maxzangle 0.5 -num 250 -bgcolor 255 -bgtresh 10
+
+
+
+opencv_createsamples.exe -info positivas1\positivas1.lst  -num 250 -w 50 -h 50 -vec vetor1.vec
+opencv_createsamples.exe -info positivas2\positivas2.lst  -num 250 -w 50 -h 50 -vec vetor2.vec
+opencv_createsamples.exe -info positivas3\positivas3.lst  -num 250 -w 50 -h 50 -vec vetor3.vec
+opencv_createsamples.exe -info positivas4\positivas4.lst  -num 250 -w 50 -h 50 -vec vetor4.vec
+opencv_createsamples.exe -info positivas5\positivas5.lst  -num 250 -w 50 -h 50 -vec vetor5.vec
+opencv_createsamples.exe -info positivas6\positivas6.lst  -num 250 -w 50 -h 50 -vec vetor6.vec
+opencv_createsamples.exe -info positivas7\positivas7.lst  -num 250 -w 50 -h 50 -vec vetor7.vec
+opencv_createsamples.exe -info positivas8\positivas8.lst  -num 250 -w 50 -h 50 -vec vetor8.vec
+opencv_createsamples.exe -info positivas9\positivas9.lst  -num 250 -w 50 -h 50 -vec vetor9.vec
+opencv_createsamples.exe -info positivas10\positivas10.lst  -num 250 -w 50 -h 50 -vec vetor10.vec
+opencv_createsamples.exe -info positivas11\positivas11.lst  -num 250 -w 50 -h 50 -vec vetor11.vec
+opencv_createsamples.exe -info positivas12\positivas12.lst  -num 250 -w 50 -h 50 -vec vetor12.vec
+opencv_createsamples.exe -info positivas13\positivas13.lst  -num 250 -w 50 -h 50 -vec vetor13.vec
+opencv_createsamples.exe -info positivas14\positivas14.lst  -num 250 -w 50 -h 50 -vec vetor14.vec
+opencv_createsamples.exe -info positivas15\positivas15.lst  -num 250 -w 50 -h 50 -vec vetor15.vec
+opencv_createsamples.exe -info positivas16\positivas16.lst  -num 250 -w 50 -h 50 -vec vetor16.vec
+opencv_createsamples.exe -info positivas17\positivas17.lst  -num 250 -w 50 -h 50 -vec vetor17.vec
+opencv_createsamples.exe -info positivas18\positivas18.lst  -num 250 -w 50 -h 50 -vec vetor18.vec
+opencv_createsamples.exe -info positivas19\positivas19.lst  -num 250 -w 50 -h 50 -vec vetor19.vec
+opencv_createsamples.exe -info positivas20\positivas20.lst  -num 250 -w 50 -h 50 -vec vetor20.vec
+opencv_createsamples.exe -info positivas21\positivas21.lst  -num 250 -w 50 -h 50 -vec vetor21.vec
+opencv_createsamples.exe -info positivas22\positivas22.lst  -num 250 -w 50 -h 50 -vec vetor22.vec
+opencv_createsamples.exe -info positivas23\positivas23.lst  -num 250 -w 50 -h 50 -vec vetor23.vec
+opencv_createsamples.exe -info positivas24\positivas24.lst  -num 250 -w 50 -h 50 -vec vetor24.vec
+opencv_createsamples.exe -info positivas25\positivas25.lst  -num 250 -w 50 -h 50 -vec vetor25.vec
+opencv_createsamples.exe -info positivas26\positivas26.lst  -num 250 -w 50 -h 50 -vec vetor26.vec
+opencv_createsamples.exe -info positivas27\positivas27.lst  -num 250 -w 50 -h 50 -vec vetor27.vec
+opencv_createsamples.exe -info positivas28\positivas28.lst  -num 250 -w 50 -h 50 -vec vetor28.vec
+opencv_createsamples.exe -info positivas29\positivas29.lst  -num 250 -w 50 -h 50 -vec vetor29.vec
+
+
+
+
+python mergevec.py -v VETOR_IMG\ -o vetor_final.vec
+
+
+
+
+opencv_traincascade.exe -data Classificador\ -vec vetor_final.vec -bg negativas\bg.txt -numPos 6000 - numNeg 3000 -numStages 20 -w 50 -h 50 -precalcValBufSize 1024 -precalcIdxBufSize 10240 -maxFalseAlarmRate 0.2
+
+
+
