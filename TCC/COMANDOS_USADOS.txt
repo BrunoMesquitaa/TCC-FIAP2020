@@ -99,4 +99,4 @@ python mergevec.py -v VETOR_IMG\ -o vetor_final.vec
 opencv_traincascade.exe -data Classificador\ -vec vetor_final.vec -bg negativas\bg.txt -numPos 6000 - numNeg 3000 -numStages 20 -w 50 -h 50 -precalcValBufSize 1024 -precalcIdxBufSize 10240 -maxFalseAlarmRate 0.2
 
 
-
+opencv_traincascade.exe -data Classificador\ -vec vetor_final.vec -bg bg.txt -numPos 3000 -numNeg 1500 -numStages 10 -w 50 -h 50 -precalcValBufSize 1024 -precalcIdxBufSize 8192 -numThreads 4
