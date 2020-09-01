@@ -18,14 +18,14 @@ for imagem in images:
 
     img=cv2.imread(imagem)
     imgC = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-    classCadeirante = classificador.detectMultiScale(imgC,scaleFactor=1.1,minSize=(125,125),minNeighbors=10)
+    classCadeirante = classificador.detectMultiScale(imgC,scaleFactor=1.1,minSize=(200,200),minNeighbors=20)
 
     countCadeirante = len(classCadeirante)
 
     if countCadeirante > 0:
-        temp = 5
+        temp = 4
     else:
-        temp = 1
+        temp = 2
 
     for t in range(temp,-1,-1):
 

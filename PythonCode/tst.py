@@ -1,23 +1,30 @@
-import cv2
+import  cv2 as cv
 
-img = cv2.imread("Imagens/Acessibilidade.jpg") #load rgb image
-hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV) #convert it to hsv
-value=10
-for x in range(0, len(hsv)):
-    for y in range(0, len(hsv[0])):
-        hsv[x, y][2] += value
+#depositivo a captura
+video=cv.VideoCapture(0,cv.CAP_DSHOW)
+classificador=cv.CascadeClassifier("cascadecadeirante.xml")
 
-img = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
-cv2.imwrite("image_processed.jpg", img)
 
-classificador = cv2.CascadeClassifier("cascadecadeirante.xml")
-imgC = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-classCadeirante = classificador.detectMultiScale(imgC,scaleFactor=1.1,minSize=(125,125),minNeighbors=5)
+while True:
 
-for (x, y, l, a) in classCadeirante:
-    img = cv2.rectangle(img, (x, y), (x + l, y + a), (0, 0, 0), 2)
+    conectado,frame = video.read()
+    #print(conectado) #mostra se tá conectado
+    #print(frame) #mostra o frame semelhante os rectangulo x y l a
 
-cv2.imshow("1", img)
+    frameCinza=cv.cvtColor(frame,cv.COLOR_BGR2GRAY)
+    faceDetect= classificador.detectMultiScale(frameCinza,scaleFactor=1.1,minSize=(200,200),minNeighbors=20)
 
-cv2.waitKey()
-cv2.destroyAllWindows()
+    for (x,y,l,a) in faceDetect:
+        cv.rectangle(frame, (x,y),(x+l,y+a),(255,0,0),2)
+
+    cv.imshow("cam",frame)
+
+    #q equivale a 1 e dá um break
+    if cv.waitKey(1) == ord('q'):
+        break
+
+
+#liberar a capitura
+video.release()
+#liberar memoria
+cv.destroyAllWindows()
